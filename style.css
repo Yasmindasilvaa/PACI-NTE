@@ -9,7 +9,9 @@
     font:9px Arial, Helvetica, sans-serif;
     }
 
-    
+    img{
+        max-width: 150px;
+    }
     
     form#form1{
         position:relative;
