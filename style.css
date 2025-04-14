@@ -1,88 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 
-*{
-    margin:0;
-    padding:0;
-    }
-    
-    body{
-    margin:0;
-    font:9px Arial, Helvetica, sans-serif;
-    }
+body {
+    margin: 0;
+    font: 9px Arial, Helvetica, sans-serif;
+}
 
-    img{
-        max-width: 95px;
-    }
-    
-    form#form1{
-        position:relative;
-        width:670px;
-        margin:0 auto;
-        z-index:2;
-    }
-   
-    
-    label{
-     border:1px solid #000;
-     padding:2px;
-     float:left;
-     margin:1px;
-     background-color:#FFF;
-    }
+img {
+    max-width: 95px;
+}
 
-    
-    legend	{
-        display:block;
-        font:bold 11px Arial, Helvetica, sans-serif;
-        color:#000;
-    }
-    th{
-        text-align:left;
-    }
-    
-   
-    div.print{
-        padding:4px;
-        margin-bottom:10px;
-        font:bold 11px Arial, Helvetica, sans-serif;
-        color:#D00;
-        text-align:center;
-    }
-    div.print{
-        padding:4px;
-        margin-top:10px;
-        font:bold 11px Arial, Helvetica, sans-serif;
-        color:#D00;
-        text-align:center;
-    }
-    .obs{padding:0;}
-    #titulo{
-        font-size:14px;
-        text-align:center;
-        margin:10px
-    }
-        #titulo img{
-            float:left;
-            position:absolute;
-            left:10px;
-            top:0px;
-        }
-    #numero{
-        margin-top:-40px;
-        margin-left:520px;
-        margin-bottom:30px;
-        border:none;
-    }
-    #numero input{display:inline;}
-    /*********************************/
-    /*********************************/
-    label#l19{width:85px;}
-    label#l22{width:220px;}
-    label#l23{width:410px;}
-    label#l24{width:270px;}
-    label#l29{width:237px;}
-    label#l28{padding-right:20px;}
-    label#l28 input{float:left;}
-    #l27, #l28, #l29{padding-right:20px;}
-    #l22 select, #l23 select, #l24 select, #l27 select, #l28 select, #l29 select{float:left;}
-    #l48{padding-right:25px;}
-    .ass{padding-bottom:20px;}
+form#form1 {
+    position: relative;
+    width: 670px;
+    margin: 0 auto;
+    z-index: 2;
+}
+
+
+label {
+    border: 1px solid #000;
+    padding: 2px;
+    float: left;
+    margin: 1px;
+    background-color: #FFF;
+}
+
+
+legend {
+    display: block;
+    font: bold 11px Arial, Helvetica, sans-serif;
+    color: #000;
+}
+
+th {
+    text-align: left;
+}
+
+
+
+.obs {
+    padding: 0;
+}
+
+#titulo {
+    font-size: 14px;
+    text-align: center;
+    margin: 10px
+}
+
+#titulo img {
+    float: left;
+    position: absolute;
+    left: 10px;
+    top: 0px;
+}
+
+#numero {
+    margin-top: -40px;
+    margin-left: 520px;
+    margin-bottom: 30px;
+    border: none;
+}
+
+#numero input {
+    display: inline;
+}
+
+label#l19 {
+    width: 85px;
+}
+
+label#l22 {
+    width: 220px;
+}
+
+label#l23 {
+    width: 410px;
+}
+
+label#l24 {
+    width: 270px;
+}
+
+label#l29 {
+    width: 237px;
+}
+
+label#l28 {
+    padding-right: 20px;
+}
+
+label#l28 input {
+    float: left;
+}
+
+#l27,
+#l28,
+#l29 {
+    padding-right: 20px;
+}
+
+#l22 select,
+#l23 select,
+#l24 select,
+#l27 select,
+#l28 select,
+#l29 select {
+    float: left;
+}
+
+#l48 {
+    padding-right: 25px;
+}
+
+.ass {
+    padding-bottom: 20px;
+}
