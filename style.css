@@ -29,26 +29,7 @@
      background-color:#FFF;
     }
 
-    label.obr{background-color:#DDD;}
-    input, select, textarea{
-     display:block;
-     font:9px Arial, Helvetica, sans-serif;
-     border:1px solid #888;
-     border-top:none;
-     background:none;
-    }
-    table{
-        border: 1px solid #000
-    }
-    table input{display:inline;}
-    table label{background:none; border:none}
-    fieldset{
-        clear:both;
-        padding:2px;
-        margin:3px 0;
-        border:none;
-        background-color:#f0f0f0;
-    }
+    
     legend	{
         display:block;
         font:bold 11px Arial, Helvetica, sans-serif;
