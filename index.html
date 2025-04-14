@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form>
+
+        <h3> Fomulário Médico - Cadastro do Paciênte | Hospital Dona Helena </h3>
+
+        <fieldset>
+
+
+
+            <legend>
+                <h3>Dados Pessoais </h3>
+            </legend>
+            <label for="nome"> Nome completo do Paciênte: </label>
+            <input type="text" id="nome" name="nome_paciente">
+
+            <br>
+            <br>
+
+            <label for="nascimento"> Data de Nascimento:  </label>
+            <input type="date" id="nascimento" name="nascimento"> </iput>
+
+            <br>
+            <br>
+
+            <label for="endereco"> Endereço </label>
+            <input type="endereco" id="endereco" name="endereco">
+
+            <br>
+            <br> 
+
+            <label for="telefone"> Telefone: </label>
+            <input type="tel" id="telefone" name="telefone_paciente" placeholder="(00) 00000-0000"> 
+
+            <br> 
+            <br>
+
+            <label for="email"> Email: </label>
+            <input type="email" id="email" name="email_paciente" placeholder="seu@gmail.com" required title="Por favor, insira um e-mail válido (ex: nome@provedor.com)">
+
+
+
+
+            <legend>
+                <h3> Genêro </h3>
+            </legend>
+
+
+
+            <label for="Masculino"> Masculino </label>
+            <input type="radio" id="Masculino" name="genero" value="Masculino">
+
+            <br>
+
+            <label for="Feminino"> Feminino</label>
+            <input type="radio" id="Feminino" name="genero" value="Feminino">
+
+
+
+            <fieldset> 
+
+                <legend> <h3>Outras informações médicas relevantes  </h3>  </legend>
+
+                <h3> O paciênte tem algum histórico de doenças? </h3>
+
+                <br> 
+                <label for="sim"> Sim </label>
+                <input type="radio" id="sim" name="sim" value="sim"> 
+                <br> 
+
+                <label for="msg"> Quais?  </label>
+                <textarea id="msg" name-msg_usuario></textarea>
+
+                <br> 
+                <br>
+
+                <label for="nao"> Não </label>
+                <input type="radio" id="nao" name="sim" value="nao"> 
+
+                <br> 
+                <br>
+
+                <label for="nomeMedico"> Nome do Médico Responsável </label>
+                <input type="text" id="medico" name="medico_usuario" >
+
+            </fieldset>
+
+            <fieldset>
+                <label for="enviar"> Eniviar formulário médico -> </label>
+                <input type="enviar" value="enviar">
+            </fieldset>
+
+        </fieldset>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+
+</body>
+
+</html>
