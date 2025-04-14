@@ -60,52 +60,7 @@ th {
 
 
 
-label#l19 {
-    width: 85px;
-}
 
-label#l22 {
-    width: 220px;
-}
-
-label#l23 {
-    width: 410px;
-}
-
-label#l24 {
-    width: 270px;
-}
-
-label#l29 {
-    width: 237px;
-}
-
-label#l28 {
-    padding-right: 20px;
-}
-
-label#l28 input {
-    float: left;
-}
-
-#l27,
-#l28,
-#l29 {
-    padding-right: 20px;
-}
-
-#l22 select,
-#l23 select,
-#l24 select,
-#l27 select,
-#l28 select,
-#l29 select {
-    float: left;
-}
-
-#l48 {
-    padding-right: 25px;
-}
 
 .ass {
     padding-bottom: 20px;
