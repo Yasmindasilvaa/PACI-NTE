@@ -23,98 +23,101 @@
             "* os campos com fundo branco devem ser preenchidos, confirme solicitado pela ANS"</p>
         <p class="obs"> * As datas devem estar no formato DD/MM/AA </p>
 
-        <br> 
+        <br>
 
         <label>1- Registro ANS
             <input type="text" maxLength="6" size="20" name="textfield">
-          </label>
-          <label class="obr">3 - Data de Autoriza&ccedil;&atilde;o
+        </label>
+        <label class="obr">3 - Data de Autoriza&ccedil;&atilde;o
             <input type="text" maxLength="8" size="20" name="textfield3">
-          </label>
-          <label class="obr">4 - Senha
+        </label>
+        <label class="obr">4 - Senha
             <input type="text" maxLength="20" size="20" name="textfield4">
-          </label>
-          <label class="obr">5 - Data de Validade da Senha
+        </label>
+        <label class="obr">5 - Data de Validade da Senha
             <input type="text" maxLength="8" size="20" name="textfield5">
-          </label>
-          <label>6 - Data de Emiss&atilde;o da Guia
+        </label>
+        <label>6 - Data de Emiss&atilde;o da Guia
             <input type="text" maxLength="8" size="20" name="textfield6">
-          </label>
+        </label>
 
-
-          <fieldset>
-            <legend>DADOS PESSOAIS </legend>
-            <label>7 - Nome completo do Paciênte
-              <input type="text" maxLength="20" size="50" name="textfield7">
-            </label>
-            <label>8 - Data de nascimento
-              <input type="date" maxLength="20" name="textfield8">
-            </label>
-            <label class="obr">9 - Endereço
-              <input type="text" maxLength="8" name="textfield9">
-            </label>
-            <label>10 - 
-              Telefone 
-              <input type="tel" maxLength="70" size="70" name="textfield10">
-            </label>
-            <label class="obr">11 - Email 
-              <input type="text" maxLength="15" size="20" name="textfield11" placeholder="seu@gmail.com" required >
-            </label>
-          </fieldset>
-          <fieldset>
 
         <fieldset>
-           <legend>
-                <h3> GENÊRO </h3>
-            </legend>
-
-
-
-            <label> 12 -  Masculino 
-            <input type="radio" id="Masculino" name="genero" value="Masculino" maxLength="20" size="70">
+            <legend>DADOS PESSOAIS </legend>
+            <label>7 - Nome completo do Paciênte
+                <input type="text" maxLength="20" size="50" name="textfield7">
             </label>
-            <label> 13 -  Feminino
-            <input type="radio" id="Feminino" name="genero" value="Feminino" maxLength="20" size="70">
+            <label>8 - Data de nascimento
+                <input type="date" maxLength="20" name="textfield8">
             </label>
-
-
-
-            <fieldset>
-
-                <legend>
-                    <h3>Outras informações médicas relevantes </h3>
-                </legend>
-
-                <h3> O paciênte tem algum histórico de doenças? </h3>
-
-                <br>
-                <label for="sim"> Sim </label>
-                <input type="radio" id="sim" name="sim" value="sim">
-                <br>
-
-                <label for="msg"> Quais? </label>
-                <textarea id="msg" name-msg_usuario></textarea>
-
-                <br>
-                <br>
-
-                <label for="nao"> Não </label>
-                <input type="radio" id="nao" name="sim" value="nao">
-
-                <br>
-                <br>
-
-                <label for="nomeMedico"> Nome do Médico Responsável </label>
-                <input type="text" id="medico" name="medico_usuario">
-
-            </fieldset>
-
-            <fieldset>
-                <label for="enviar"> Eniviar formulário médico -> </label>
-                <input type="enviar" value="enviar">
-            </fieldset>
-
+            <label class="obr">9 - Endereço
+                <input type="text" maxLength="8" name="textfield9">
+            </label>
+            <label>10 -
+                Telefone
+                <input type="tel" maxLength="70" size="70" name="textfield10">
+            </label>
+            <label class="obr">11 - Email
+                <input type="text" maxLength="15" size="20" name="textfield11" placeholder="seu@gmail.com" required>
+            </label>
         </fieldset>
+        <fieldset>
+
+            <fieldset>
+                <legend>
+                    <h3> GENÊRO </h3>
+                </legend>
+                <label> 12 - Masculino
+                    <input type="radio" id="Masculino" name="genero" value="Masculino" maxLength="20" size="70">
+                </label>
+                <label> 13 - Feminino
+                    <input type="radio" id="Feminino" name="genero" value="Feminino" maxLength="20" size="70">
+                </label>
+
+                <br>
+
+                <fieldset>
+
+                    <br>
+
+                    <legend>
+                        <h3>Outras informações médicas relevantes </h3>
+                    </legend>
+
+                    <br>
+
+                    <h3 id="histórico"> O paciênte tem algum histórico de doenças? </h3>
+
+                    <br>
+                    <label> Sim
+                        <input type="radio" id="sim" name="sim" value="sim" maxLength="20" size="70">
+                    </label>
+                    <br>
+
+                    <label for="msg"> Quais? </label>
+                    <textarea id="msg" name-msg_usuario></textarea>
+
+                    <br>
+                    <br>
+
+                    <label> Não
+                        <input type="radio" id="nao" name="sim" value="nao" maxLength="20" size="70">
+                    </label>
+
+                    <br>
+                    <br>
+
+                    <label for="nomeMedico"> Nome do Médico Responsável </label>
+                    <input type="text" id="medico" name="medico_usuario">
+
+                </fieldset>
+
+                <fieldset>
+                    <label for="enviar"> Eniviar formulário médico -> </label>
+                    <input type="enviar" value="enviar">
+                </fieldset>
+
+            </fieldset>
 
 
 
